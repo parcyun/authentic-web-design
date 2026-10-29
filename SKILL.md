@@ -7,6 +7,10 @@ description: Eliminate AI-generated visual patterns during web design and implem
 
 AI가 만든 것처럼 보이는 웹 UI를 피하고, 목적과 브랜드가 드러나는 인터페이스를 만드는 실무 체크리스트다. 핵심은 장식을 더하는 것이 아니라 색상·타이포그래피·간격·상태를 일관된 시스템으로 설계하는 데 있다.
 
+## Question-led usability and mobile adaptation
+
+For new UI or usability improvements, use [question-led usability](references/question-led-usability.md): generate friction questions internally, inspect the actual journey, fix the structure and verify. Apply `dexter-hci` for new interaction behavior when available. Mobile adaptation must address touch, content priority, navigation, scroll and focus rather than shrinking the desktop layout.
+
 ## 0. 디자인 전에 수행할 일: Pre-Design
 
 잘못된 방향으로 완성한 뒤 다시 만드는 비용이 가장 크다. 코드를 쓰거나 픽셀을 그리기 전에 아래 순서로 방향을 고정한다. 짧은 요청도 최소한 매체·톤·제약은 확인한다.
